@@ -1,18 +1,17 @@
 import { Got } from "got";
-interface IInbox {
+export interface IInbox {
     content: string;
 }
-interface IMessage {
+export interface IMessage {
     URL: string;
     Email: string;
     Id: string;
 }
-export declare class GmailnatorClient {
+export default class GmailnatorClient {
     CSRF: string;
     HttpClient: Got;
     init(): Promise<void>;
     GetInbox(Email: string): Promise<IInbox[]>;
     GetMessage(Message: IMessage): Promise<string>;
 }
-export {};
 //# sourceMappingURL=index.d.ts.map

@@ -3,19 +3,19 @@ import got, { Got } from "got"
 import * as setCookie from "set-cookie-parser"
 
 // Inbox
-interface IInbox {
+export interface IInbox {
     content: string
 }
 
 // Message Inbox
-interface IMessage {
+export interface IMessage {
     URL: string
     Email: string
     Id: string
 }
 
 // Main Gmailnator Client
-export class GmailnatorClient {
+export default class GmailnatorClient {
     // Vars
     CSRF: string = ""
     HttpClient: Got = got.extend()

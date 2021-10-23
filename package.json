@@ -1,6 +1,6 @@
 {
   "name": "gmailnator-ts",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Allows you to use gmailnator - without having to use the rapidapi version.",
   "types": "lib/index.d.ts",
   "main": "lib/index.js",
