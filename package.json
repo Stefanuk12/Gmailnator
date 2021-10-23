@@ -1,0 +1,20 @@
+{
+  "name": "gmailnator-ts",
+  "version": "1.0.0",
+  "description": "Allows you to use gmailnator - without having to use the rapidapi version.",
+  "types": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "scripts": {
+    "run": "tsc"
+  },
+  "keywords": [],
+  "author": "Stefanuk12",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^11.8.2",
+    "set-cookie-parser": "^2.4.8"
+  },
+  "devDependencies": {
+    "@types/set-cookie-parser": "^2.4.1"
+  }
+}
